@@ -26,7 +26,7 @@ jobs:
         with:
           ref: main
           clean: false
-          path: main
+          path: /
 
       - run: pwd && ls
       - run: cd main && pwd && ls
