@@ -27,4 +27,7 @@ jobs:
           ref: main
           clean: false
 
+      - run: rm -rf main/.git
+      - run: mv main/* .
+
       - run: pwd && ls
