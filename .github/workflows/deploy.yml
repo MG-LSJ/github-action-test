@@ -19,12 +19,13 @@ jobs:
       - name: Checkout branch
         uses: actions/checkout@v4
 
-      - run: ls
+      - run: pwd && ls
 
       - name: Checkout main
         uses: actions/checkout@v4
         with:
           ref: main
           clean: false
+          path: main
 
-      - run: ls
+      - run: pwd && ls
