@@ -26,6 +26,5 @@ jobs:
         with:
           ref: main
           clean: false
-          path: github-action-test
 
       - run: pwd && ls
