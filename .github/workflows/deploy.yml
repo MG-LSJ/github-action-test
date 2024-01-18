@@ -29,5 +29,4 @@ jobs:
           path: main
 
       - run: pwd && ls
-      - run: cd main
-      - run: pwd && ls
+      - run: cd main && pwd && ls
