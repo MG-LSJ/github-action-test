@@ -26,6 +26,7 @@ jobs:
         with:
           ref: main
           clean: false
+          path: main
 
       - run: rm -rf main/.git
       - run: mv main/* .
